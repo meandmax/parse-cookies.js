@@ -10,7 +10,7 @@
     "patch": "npm version patch && npm run build && npm publish",
     "minor": "npm version minor && npm run build && npm publish",
     "major": "npm version major && npm run build && npm publish",
-    "prebuild": "npm run clean",
+    "prebuild": "npm run clean && npm run lint & npm run test",
     "build": "babel index.js --out-file lib/index.js",
     "postpublish": "git push origin master --follow-tags"
   },
@@ -32,10 +32,10 @@
   "homepage": "https://github.com/meandmax/parse-cookies.js",
   "devDependencies": {
     "babel": "latest",
-    "eslint": "^1.3.1",
-    "eslint-config-standard": "^4.3.1",
-    "eslint-plugin-standard": "^1.3.0",
-    "faucet": "0.0.1",
+    "eslint": "latest",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-standard": "latest",
+    "faucet": "latest",
     "rimraf": "latest",
     "tap-spec": "latest",
     "tape": "latest"
