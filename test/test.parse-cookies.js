@@ -49,4 +49,3 @@ test('parseCookies() transforms data using another dataParser', function (t) {
     t.equal(cookies.b, 2);
     t.notEqual(cookies.a, '1');
 });
-

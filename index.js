@@ -5,16 +5,16 @@
  * @param  {function}   dataParser  A function to transform the cookie content (optional).
  * @return {Object}                 Parsed cookie data.
  */
-export default function parseCookies(raw, dataParser) {
+export default function parseCookies (raw, dataParser) {
     // if empty string or undefined
     if (typeof raw === 'undefined' || (typeof raw === 'string' && raw === '')) {
         return {};
     }
 
     return raw.split(';').reduce(function (cookies, cookieString) {
-        let cookiePair    = cookieString.split('=');
+        let cookiePair = cookieString.split('=');
         let cookieContent = cookiePair.length > 1 ? cookiePair[1].trim() : '';
-        let cookieName    = cookiePair[0].trim();
+        let cookieName = cookiePair[0].trim();
 
         if (typeof dataParser !== 'undefined') {
             cookieContent = dataParser(cookieContent);

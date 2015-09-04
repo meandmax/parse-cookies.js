@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib/*",
+    "lint": "eslint test index.js",
     "test": "node test/test.main.js | faucet",
     "patch": "npm version patch && npm run build && npm publish",
     "minor": "npm version minor && npm run build && npm publish",
@@ -31,6 +32,9 @@
   "homepage": "https://github.com/meandmax/parse-cookies.js",
   "devDependencies": {
     "babel": "latest",
+    "eslint": "^1.3.1",
+    "eslint-config-standard": "^4.3.1",
+    "eslint-plugin-standard": "^1.3.0",
     "faucet": "0.0.1",
     "rimraf": "latest",
     "tap-spec": "latest",

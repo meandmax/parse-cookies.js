@@ -5,6 +5,7 @@
 [![build](http://img.shields.io/travis/meandmax/parse-cookies.js/master.svg?style=flat)](https://travis-ci.org/meandmax/parse-cookies.js)
 [![code climate](http://img.shields.io/codeclimate/github/meandmax/parse-cookies.js.svg?style=flat)](https://codeclimate.com/github/meandmax/parse-cookies.js)
 [![devDependencies](http://img.shields.io/david/dev/meandmax/parse-cookies.js.svg?style=flat)](https://david-dm.org/meandmax/parse-cookies.js#info=devDependencies&view=table)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 ### Install:
 
