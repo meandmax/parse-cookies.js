@@ -1,6 +1,6 @@
 {
   "name": "parse-cookies.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Parses document.cookie string into an object (dictionary) by * splitting at ';' and '='.",
   "main": "lib/index.js",
   "scripts": {
