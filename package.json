@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/meandmax/parse-cookies.js",
   "devDependencies": {
-    "babel": "5.8.29",
+    "babel": "6.5.1",
     "coveralls": "2.11.4",
     "eslint": "1.8.0",
     "eslint-config-standard": "4.4.0",
